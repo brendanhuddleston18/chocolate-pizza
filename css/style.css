@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+}
+
+#fullThing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+}
+
+#title {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+  /* margin-left: 10px; */
+}
+
+#title span {
+  font-size: 40px;
+  font-family: 'Yellowtail';
+  font-style: ;
+}
+
+#title img {
+  height: 50px;
+  width: 50px;
+}
+
+#title strong {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  color: grey;
+}
+
+#delicious {
+  display: flex;
+  flex-direction: column;
+}
+
+#socialIcons {
+  display: flex;
+  gap: 2px;
+}
+
+#date {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  color: #adb5bd;
+}
+
+.delHeader {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-bottom: 10px dotted grey;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card header {
+  margin-bottom: 20px;
+}
+
+.copy {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.copy p {
+  text-indent: 2em;
+  font-family: 'Oswald';
+  font-size: large;
+  color: #495057;
+}
+
+.recipe li {
+  font-family: 'Patrick Hand SC'
+}
+
+.card-horizontal-content {
+  font-family: 'Oswald';
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  font-family: 'Oswald';
+}
+
+ul {
+  display: flex;
+  gap: 2px;
+}
+
+header h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Oswald';
+  letter-spacing: 1px;
+  color:#111;
+  margin-bottom: 20px;
+}
