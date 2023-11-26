@@ -94,6 +94,15 @@ body {
 
 .card-horizontal-content {
   font-family: 'Oswald';
+  color: #495057;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  padding-top: 24px;
+  border-top: 5px dashed grey;
+  font-size: 18px;
 }
 
 .card-bgimage {
@@ -111,6 +120,13 @@ body {
   left: 48px;
 }
 
+.primary {
+  background-color: rgb(185, 84, 47);
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -124,7 +140,22 @@ figure {
 
 footer {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+  align-items: center;
   font-family: 'Oswald';
+}
+
+footer img {
+  height: 24px;
+  width: 24px;
+  margin-bottom: 24px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #495057;
 }
 
 ul {
