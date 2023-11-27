@@ -67,8 +67,9 @@ body {
 .dashedLine {
   height: 18px;
   width: 100%;
+  /* Used ChatGPT to figure out the diagonal line */
   background: linear-gradient(45deg, transparent 45%, grey 45%, grey 55%, transparent 55%);
-  background-size: 8px 8px; /* Adjust the size of dashes */
+  background-size: 8px 8px;
 }
 
 .card {
